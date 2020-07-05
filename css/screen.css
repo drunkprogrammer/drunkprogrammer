@@ -1,0 +1,11 @@
+body{
+	color: aliceblue;
+	background-color: aliceblue;
+	-webkit-font-smoothing: antialiased;//抗锯齿
+}
+
+/* .为class选择器 #为id选择器 */
+.project-blackground-1{
+	 text-align:center;
+	 color:red;
+}
