@@ -3,9 +3,24 @@ body{
 	background-color: aliceblue;
 	-webkit-font-smoothing: antialiased;//抗锯齿
 }
-
+li{
+	float: left;
+	margin: 10px 5px 10px 10px;
+}
+#navigation{
+	float: left;
+	margin: 10px 5px 5px 10px;
+}
+#header{
+	size: a3;
+	margin: 20px 10px 5px 10px;
+	background-image: inherit;
+	position: absolute;
+}
 /* .为class选择器 #为id选择器 */
 .project-blackground-1{
 	 text-align:center;
-	 color:red;
+	 color:#FFA500;
+	 float: right;
+	 margin: 30px auto;
 }
