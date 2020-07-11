@@ -1,26 +1,80 @@
 body{
-	color: aliceblue;
-	background-color: aliceblue;
-	-webkit-font-smoothing: antialiased;//抗锯齿
+	margin: 0;
+	padding: 0;
 }
+
+#container{
+	height: 10%;
+	width: 100%;
+	position: absolute;
+	color: white;
+	background-color: #000000;
+}
+
+#header{
+	margin: 1% 0px;
+	padding: 0;
+} 
+
+
+#favicon{
+	width: 40px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	background-image:url(../img/favicon.png);
+	background-size: 40px 40px;
+	float: left;
+}
+
+#welcome{
+	font-size: larger;
+	color: white;
+	position: absolute;
+	display: block;
+	left: 50px;
+	top: 45%;
+}
+
+#nav{
+	float: right; 
+	vertical-align: middle;
+	/* text-align: center; */
+}
+
+/* .为class选择器 #为id选择器 */
+#poetry{
+	 text-align:center;
+	 color:#000000;
+	 float: right;
+	margin: 3%;
+	 right: 0.625rem;
+	 padding: 10px;
+}
+
+ul{
+	float: right;
+	margin: 5px; /* 居中排列 */
+}
+
 li{
 	float: left;
-	margin: 10px 5px 10px 10px;
+	margin: 20px;
+	list-style: none;
 }
-#navigation{
-	float: left;
-	margin: 10px 5px 5px 10px;
+
+a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: large;
+	display: block;
+	-webkit-box-align: cneter;
 }
-#header{
-	size: a3;
-	margin: 20px 10px 5px 10px;
-	background-image: inherit;
-	position: absolute;
+
+a:hover{
+	text-decoration: underline;
 }
-/* .为class选择器 #为id选择器 */
-.project-blackground-1{
-	 text-align:center;
-	 color:#FFA500;
-	 float: right;
-	 margin: 30px auto;
-}
+
+
+
+
